@@ -1,0 +1,80 @@
+#version: '3.8'
+#services:
+#  frontend:
+#    build: ./frontend
+#    ports:
+#      - "9697:80"
+#    depends_on:
+#      - backend
+#
+#  backend:
+#    build: ./backend
+#    ports:
+#      - "5000:5000"
+#    environment:
+#      - MONGO_URI=mongodb://mongo:27017/ptcheckdb
+#    depends_on:
+#      - mongo
+#
+#  mongo:
+#    image: mongo:4.4
+#    ports:
+#      - "27018:27017"
+##    volumes:
+# #     - mongo-data:/data/db
+#  nginx:
+#    image: nginx:latest
+#    ports:
+#      - "8081:8080"
+#    volumes:
+#      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+#    depends_on:
+#      - frontend
+#      - backend
+version: '3.9'
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/govent
+    depends_on:
+      - mongo
+      - email-service
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - frontend
+      - backend
+
+  email-service:
+    build: ./email-service
+    container_name: email-service
+    ports:
+      - "3001:3001"
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
+

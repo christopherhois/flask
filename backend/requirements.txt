@@ -1,0 +1,6 @@
+Flask
+Flask-JWT-Extended
+pymongo
+python-dotenv
+requests
+werkzeug
