@@ -1,24 +1,30 @@
 {
   "name": "frontend",
   "version": "1.0.0",
+  "description": "Frontend für das Projekt",
+  "main": "src/main.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
+  "serve": "vue-cli-service serve",
+  "build": "vue-cli-service build",
+  "lint": "vue-cli-service lint"
+}
+,
   "dependencies": {
-    "axios": "",
-    "date-fns": "",
+    "axios": "^0.27.2",
+    "date-fns": "^2.29.2",
     "nodemailer": "^6.9.16",
-    "passport": "",
+    "passport": "^0.5.3",
     "vue": "^3.4.31",
-    "vue-loader": "^15.4.2",
-    "vue-router": "",
-    "vueify": "",
-    "vuex": ""
+    "vue-loader": "^16.8.3",
+    "vue-router": "^4.1.6",
+    "vueify": "^9.4.1",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@vue/cli-service": "^5.0.8",
-    "@vue/compiler-sfc": "^3.4.31"
+    "@vue/compiler-sfc": "^3.4.31",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.7.1"
   }
 }

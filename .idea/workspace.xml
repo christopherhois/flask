@@ -4,49 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa9235b-529a-467b-b949-4d9b34ec84ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/flaskProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/_init_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/_init_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-service/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-service/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/nuxt.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/AddUser.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/AdminPTValues.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/AdminUsers.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/admin.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/auth.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/newPassword.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="2fa9235b-529a-467b-b949-4d9b34ec84ba" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/email-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/AddUser.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/AddUser.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/AdminPTValues.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/AdminPTValues.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/AdminUsers.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/AdminUsers.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/admin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/auth.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/auth.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/newPassword.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/newPassword.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +42,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "christopherhois"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/christopherhois/flask.git",
+    "accountId": "1344fd0b-32a6-4665-8532-efe16074a090"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -102,9 +89,10 @@
       <recent name="C:\Users\hoisc\PycharmProjects\flaskProject\frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hoisc\PycharmProjects\flaskProject\frontend" />
+      <recent name="C:\Users\hoisc\PycharmProjects\flaskProject\frontend\pages" />
       <recent name="C:\Users\hoisc\PycharmProjects\flaskProject\frontend\views" />
       <recent name="C:\Users\hoisc\PycharmProjects\flaskProject\frontend\src" />
-      <recent name="C:\Users\hoisc\PycharmProjects\flaskProject\frontend" />
       <recent name="C:\Users\hoisc\PycharmProjects\flaskProject\backend" />
     </key>
   </component>
@@ -142,11 +130,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731314809787</updated>
-      <workItem from="1731314812592" duration="16952000" />
+      <workItem from="1731314812592" duration="34234000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1731340390337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731340390337</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
