@@ -1,7 +1,7 @@
 {
   "name": "email-service",
   "version": "1.0.0",
-  "description": "E-Mail-Service für Govent",
+  "description": "E-Mail-Service für Flask",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

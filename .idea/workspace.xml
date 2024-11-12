@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa9235b-529a-467b-b949-4d9b34ec84ba" name="Changes" comment="minor changes in all Dockerfiles and scr router">
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/NotFound.vue" afterDir="false" />
+    <list default="true" id="2fa9235b-529a-467b-b949-4d9b34ec84ba" name="Changes" comment="fixed routing issues in docker frontend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/AddUser.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/AddUser.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/AdminPTValues.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/AdminPTValues.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/AdminUsers.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/AdminUsers.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/auth.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/auth.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/newPassword.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/newPassword.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/email-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/email-service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731314809787</updated>
-      <workItem from="1731314812592" duration="36864000" />
+      <workItem from="1731314812592" duration="42920000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -153,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731418924438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed routing issues in docker frontend">
+      <option name="closed" value="true" />
+      <created>1731421717912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731421717912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="minor changes in all Dockerfiles and scr router" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes in all Dockerfiles and scr router" />
+    <MESSAGE value="fixed routing issues in docker frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed routing issues in docker frontend" />
   </component>
 </project>
