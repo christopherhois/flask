@@ -1,7 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import AdminUsers from '../pages/AdminUsers.vue';
-import AdminPTValues from '../pages/AdminPTValues.vue';
-import AddUser from '../pages/AddUser.vue';
+import AdminUsers from '@/pages/AdminUsers.vue';
+import AdminPTValues from '@/pages/AdminPTValues.vue';
+import AddUser from '@/pages/AddUser.vue';
+import NotFound from '@/pages/NotFound.vue';
+
+
 
 const routes = [
   {
