@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 from pymongo import MongoClient
+from waitress import serve
 from werkzeug.security import generate_password_hash, check_password_hash
 import pyotp
 import pymongo
@@ -13,6 +14,14 @@ client = MongoClient('mongo', 27017)
 db = client.govent
 
 jwt = JWTManager(app)
+
+@app.route('/')
+def home():
+    return "Welcome to the Flask App!"
+
+if __name__ == "__main__":
+    # Produktion mit Waitress starten
+    serve(app, host='0.0.0.0', port=5000)
 
 @app.route('/api/register', methods=['POST'])
 def register():
@@ -337,5 +346,4 @@ def change_password():
     return jsonify(message="Passwort erfolgreich geändert."), 200
 
 
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)
+

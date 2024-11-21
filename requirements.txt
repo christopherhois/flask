@@ -1,3 +1,11 @@
 Flask
 Flask-JWT-Extended
 pymongo
+werkzeug
+gunicorn
+pyotp
+requests
+python-dotenv
+bcrypt
+Flask-Cors
+waitress

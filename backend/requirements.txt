@@ -5,3 +5,7 @@ python-dotenv
 requests
 werkzeug
 pyotp
+waitress
+gunicorn
+bcrypt
+Flask-Cors

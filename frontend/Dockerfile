@@ -13,7 +13,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 
 
-
+#für developer mode gedacht um frontend dynamisch zu testen
 #FROM node:16
 #WORKDIR /app
 #COPY package.json package.json
